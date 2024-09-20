@@ -1,5 +1,51 @@
+/* RESET */
+
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
+
+/* UTILS */
+
+.container {
+  margin: 0 auto;
+  padding: 0 10px;
+  width: 1000px;
+  max-width: 100%;
+}
+
+/* DEBUG */
+
+.debug {
+  border: 1px dashed black;
+}
+
+.debug .debug {
+}
+
+.debug .debug .debug {
+}
+
+.debug .debug .debug .debug {
+}
+
+/* PAGE HEADER */
+
+.page-header {
+  background-color: lightblue;
+  padding: 10px;
+}
+
+.page-header > .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: goldenrod;
+  padding: 5px;
+}
+
+.nav-link > li {
+  list-style-type: none;
+  display: inline-block;
 }
