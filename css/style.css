@@ -15,24 +15,10 @@
   max-width: 100%;
 }
 
-/* DEBUG */
-
-.debug {
-  border: 1px dashed black;
-}
-
-.debug .debug {
-}
-
-.debug .debug .debug {
-}
-
-.debug .debug .debug .debug {
-}
-
 /* PAGE HEADER */
 
 .page-header {
+  /* DEBUG */
   background-color: lightblue;
   padding: 10px;
 }
@@ -41,11 +27,34 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+
+  /* DEBUG */
   background-color: goldenrod;
+  border: 1px dashed black;
   padding: 5px;
 }
 
 .nav-link > li {
   list-style-type: none;
   display: inline-block;
+}
+
+/* FIRST SECTION */
+
+.first-section {
+  /* DEBUG */
+  background-color: darkblue;
+  padding: 30px;
+}
+
+.first-section > .container {
+  /* DEBUG */
+  background-color: palevioletred;
+  border: 1px dashed black;
+  width: 600px;
+}
+
+.first-block {
+  /* DEBUG */
+  padding: 100px;
 }
