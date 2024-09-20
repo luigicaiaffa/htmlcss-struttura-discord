@@ -42,9 +42,10 @@
 /* FIRST SECTION */
 
 .first-section {
+  padding: 30px;
+
   /* DEBUG */
   background-color: darkblue;
-  padding: 30px;
 }
 
 .first-section > .container {
@@ -56,7 +57,7 @@
 
 .first-block {
   /* DEBUG */
-  padding: 120px;
+  height: 250px;
 }
 
 /* MAIN SECTION */
@@ -78,7 +79,7 @@
   width: 60%;
 
   /* DEBUG */
-  padding: 150px;
+  height: 300px;
   background-color: lightblue;
   border: 1px dashed black;
 }
@@ -87,7 +88,7 @@
   width: 40%;
 
   /* DEBUG */
-  padding: 150px;
+  height: 300px;
   background-color: pink;
   border: 1px dashed black;
 }
@@ -95,14 +96,81 @@
 /* LAST SECTION */
 
 .last-section {
-  /* DEBUG */
   padding: 30px;
+
+  /* DEBUG */
   background-color: lightgrey;
 }
 
 .last-block {
   /* DEBUG */
-  padding: 250px;
+  height: 500px;
   background-color: green;
+  border: 1px dashed black;
+}
+
+/* FOOTER PART 1 */
+
+.footer-bg {
+  background-color: grey;
+  padding-top: 20px;
+}
+
+.first-footer > .container {
+  display: flex;
+  margin-bottom: 20px;
+  /* DEBUG */
+  height: 500px;
+}
+
+.footer-block-uno {
+  width: 28%;
+
+  /* DEBUG */
+  background-color: palevioletred;
+  border: 1px dashed black;
+}
+
+.footer-block-due {
+  width: 72%;
+  display: flex;
+
+  /* DEBUG */
+  background-color: aqua;
+  border: 1px dashed black;
+}
+
+.footer-block-due > div {
+  width: 25%;
+
+  /* DEBUG */
+  border: 1px dashed white;
+}
+
+.second-footer > .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  padding: 20px 0;
+
+  /* DEBUG */
+  background-color: lightblue;
+  border: 1px dashed black;
+}
+
+.footer-logo {
+  padding: 5px;
+
+  /* DEBUG */
+  background-color: pink;
+  border: 1px dashed black;
+}
+
+.footer-button {
+  padding: 5px;
+
+  /* DEBUG */
+  background-color: pink;
   border: 1px dashed black;
 }
