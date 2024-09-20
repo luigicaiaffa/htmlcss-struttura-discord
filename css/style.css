@@ -15,6 +15,11 @@
   max-width: 100%;
 }
 
+/* DEBUG */
+#gray {
+  background-color: lightgrey;
+}
+
 /* PAGE HEADER */
 
 .page-header {
@@ -58,3 +63,33 @@
   /* DEBUG */
   padding: 100px;
 }
+
+/* MAIN SECTION */
+
+.main-section {
+  padding: 30px;
+}
+
+.main-section > .container {
+  display: flex;
+}
+
+.lg-block {
+  width: 60%;
+
+  /* DEBUG */
+  padding: 150px;
+  background-color: lightblue;
+  border: 1px dashed black;
+}
+
+.sm-block {
+  width: 40%;
+
+  /* DEBUG */
+  padding: 150px;
+  background-color: pink;
+  border: 1px dashed black;
+}
+
+/* LAST SECTION */
